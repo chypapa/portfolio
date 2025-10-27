@@ -102,6 +102,9 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
 
+    // НОВОЕ: ставим класс на body как фолбек для браузеров без :has
+    document.body.classList.toggle('has-page-1', n === 1);
+
     // На маленьких экранах включаем видимость соцкнопок только на главной
     if (window.innerWidth <= 500) {
       const header = document.querySelector("header");
