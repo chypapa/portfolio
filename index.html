@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Мое Портфолио</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pixelify+Sans:wght@400..700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-left"><button id="homeBtn" class="home-btn inactive" aria-label="Home"><svg class="icon-home"
+          xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 9 9" aria-hidden="true"
+          focusable="false">
+          <path fill="currentColor"
+            d="M7 3h1V0H7v1H6v1h1ZM1 8h1V7H1ZM0 7h1V3H0Zm2 2h5V8H2Zm0-4h1V4H2Zm1 2h3V6H5V5H4v1H3Zm4 1h1V7H7ZM1 3h1V2h1V1H2V0H1Zm5 2h1V4H6ZM3 3h3V2H3Zm5 4h1V3H8Zm0 0" />
+        </svg></button></div>
+    <nav class="header-center nav-digits"><button class="digit" data-page="1"><span class="content"><span
+            class="num">1</span><span class="label">Дизайн приложения</span></span></button><button class="digit"
+        data-page="2"><span class="content"><span class="num">2</span><span
+            class="label">UI-kit</span></span></button><button class="digit" data-page="3"><span class="content"><span
+            class="num">3</span><span class="label">Дизайн сайта</span></span></button><button class="digit"
+        data-page="4"><span class="content"><span class="num">4</span><span class="label">Дизайн сайта
+            2</span></span></button></nav>
+    <div class="header-right"><a class="bh-btn" href="https://www.behance.net/cf667828" target="_blank" rel="noopener"
+        aria-label="Behance"><svg class="bh-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 432 384"
+          aria-hidden="true" focusable="false" width="20" height="20">
+          <path fill="currentColor"
+            d="M384 103H277V77h107v26zM208 203.5q12 17.5 12 42.5q0 20-8 35q-7 14-21 23q-12 9-30 14q-14 4-34 4H0V56h124q12 0 34 5q13 3 26 12q11 7 18 20q6 13 6 31q0 20-9.5 33.5T172 179q24 7 36 24.5zM55 163h61q17 0 26-6q10-7 10-23q0-9-3.5-15t-9.5-9q-6-4-12-5q-9-2-15-2H55v60zm107 80q0-20-11-29q-11-8-30-8H55v73h64q7 0 17-2q8-2 13.5-5.5T159 260q3-6 3-17zm264-3H289q0 24 13 37q12 11 34 11q15 0 27-8q12-9 14-18h46q-10 35-34 50q-24 16-55 16q-22 0-40-7t-31-21q-13-13-19-32q-7-18-7-40t7-40.5t20-32.5q13-13 30-21q18-8 40-8q24 0 42 9.5t30 25.5q11 15 17 37q5 21 3 42zm-52-34q-2-18-12-30q-9-10-29-10q-13 0-21 4.5T298.5 181t-6.5 13q-3 7-3 12h85z" />
+        </svg></a><a class="tg-btn" href="https://t.me/borodavchataya_nya" target="_blank" rel="noopener"
+        aria-label="Telegram"><svg class="tg-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+          aria-hidden="true" focusable="false" width="20" height="20">
+          <path fill="currentColor"
+            d="m21.936 5.17l-3.03 14.185c-.226.999-.806 1.224-1.644.773l-4.545-3.352l-2.225 2.127c-.225.226-.451.452-.967.452l.355-4.675l8.478-7.704c.354-.355-.097-.484-.548-.193l-10.541 6.64l-4.546-1.386c-.999-.322-.999-1 .226-1.45L20.614 3.72c.87-.258 1.612.194 1.322 1.45" />
+        </svg></a></div>
+  </header>
+  <main id="page-0" class="page page-home active">
+    <div class="home-inner fade-in">
+      <h1><span class="accent-font">Дизайны</span><span class="h1-after-comma">разработанные мной</span></h1>
+      <p>Здесь собраны некоторые из моих учебных работ.
+        Больше проектов вы можете увидеть на моей странице в Behance.
+
+        Если вы заинтересованы в сотрудничестве, со мной можно связаться в Telegram. Я открыта для любых предложений!
+      </p><button id="seeWorks" class="cta" data-target="1">Смотреть работы</button>
+    </div>
+  </main>
+  <section id="page-1" class="page">
+    <div class="page-inner fade">
+      <div class="works">
+        <div class="media"><img src="assets/seeU/seeU_1.webp" alt=""></div>
+        <div class="media"><img src="assets/seeU/seeU_2.webp" alt=""></div>
+        <div class="media"><video autoplay muted loop playsinline preload="auto" src="assets/seeU/seeU.mp4"></video>
+        </div>
+        <div class="media"><img src="assets/seeU/seeU_3.webp" alt=""></div>
+        <div class="media"><img src="assets/seeU/seeU_4.webp" alt=""></div>
+        <div class="media"><img src="assets/seeU/seeU_5.webp" alt=""></div>
+      </div>
+    </div>
+  </section>
+  <section id="page-2" class="page">
+    <div class="page-inner fade">
+      <div class="works">
+        <div class="media"><img src="assets/ui-kit/ui-kit_1.webp" alt=""></div>
+        <div class="media"><img src="assets/ui-kit/ui-kit_2.webp" alt=""></div>
+        <div class="media"><video autoplay muted loop playsinline preload="auto" src="assets/ui-kit/ui-kit.mp4"></video>
+        </div>
+        <div class="media"><img src="assets/ui-kit/ui-kit_3.webp" alt=""></div>
+        <div class="media"><img src="assets/ui-kit/ui-kit_4.webp" alt=""></div>
+      </div>
+    </div>
+  </section>
+  <section id="page-3" class="page">
+    <div class="page-inner fade">
+      <div class="works">
+        <div class="media"><img src="assets/karusel/1.webp" alt=""></div>
+      </div>
+    </div>
+  </section>
+  <section id="page-4" class="page">
+    <div class="page-inner fade">
+      <div class="works">
+        <div class="media"><img src="assets/elgen/1.webp" alt=""></div>
+        <div class="media"><img src="assets/elgen/2.webp" alt=""></div>
+        <div class="media"><img src="assets/elgen/elgen.mp4" alt=""></div>
+        <div class="media"><img src="assets/elgen/3.webp" alt=""></div>
+        <div class="media"><img src="assets/elgen/-1.webp" alt=""></div>
+      </div>
+    </div>
+  </section><button id="nextBtn" class="next-btn">›</button>
+  <script src="script.js"></script>
+ 
+</body>
+
+</html>
